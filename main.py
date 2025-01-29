@@ -2,7 +2,8 @@ import os
 import requests
 from aiogram import Bot, Dispatcher, types
 from aiogram.types import Message
-from aiogram.filters import Command
+from aiogram.dispatcher.filters import Command
+
 
 # Replace with your Telegram bot token (you'll set this as an environment variable)
 TELEGRAM_API_TOKEN = os.getenv("7663557065:AAHjhf-lA5xyGaOYxW5YvUV41C9RecIpba4")
